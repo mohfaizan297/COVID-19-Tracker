@@ -1,0 +1,22 @@
+
+.table-responsive{
+    max-height: 500px;
+    /* max-height: 80vh; */
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* border: 2px solid blue; */
+}
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: rgb(249, 236, 236); 
+}
+.thead-dark, .thead-dark tr, .thead-dark th{
+    background-color: black !important;
+    color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
